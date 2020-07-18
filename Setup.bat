@@ -37,7 +37,7 @@ echo "3. Goto Tools > References > Now unclick the Missing : Selenium Wrapper"
 echo "4. Save the file"
 pause
 echo "Done now enjoy automation "
-echo "Please star the project at @sudevn/automation/GST and donate to the project and support the project"
+echo "Please star the project at https://github.com/sudevn/GST.git and donate to the project and support the project"
 pause
 
 
