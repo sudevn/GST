@@ -11,4 +11,4 @@ The above image is kind of self explanatory but if i want to list it then ....
 
 # How to Use ?
 
-This is pretty starightforward just fill in name, username, password and Year and click the required option it would hopefully start working.
+This is pretty straightforward just fill in name, username, password and Year and click the required option it would hopefully start working.
