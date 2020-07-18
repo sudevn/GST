@@ -26,10 +26,14 @@ CD /D "%~dp0"
 :: Your codes should start from the following line
 
 echo "Installing Selenium...."
-SeleniumBasic-2.0.9.0.exe
+SeleniumWrapperSetup-1.0.17.0.exe
 pause
 echo "Coping files ......."
-copy SeleniumWrapper "C:\Program Files (x86)\"
+SET ProgFiles86Root=%ProgramFiles(x86)%
+IF NOT "%ProgFiles86Root%"=="" GOTO win64
+SET ProgFiles86Root=%ProgramFiles%
+:win64
+xcopy SeleniumWrapper "%ProgFiles86Root%\SeleniumWrapper" /Y
 echo "Now something you should do"
 echo "1. Now open login gst.xlsm"
 echo "2. Press ALT + F11"
